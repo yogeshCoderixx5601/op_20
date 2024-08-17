@@ -1,0 +1,18 @@
+{
+    "targets": {
+        "release": {
+            "outFile": "public/wasm/MyToken.wasm",
+            "textFile": "public/wasm/MyToken.wat",
+            "sourceMap": false,
+            "optimizeLevel": 3,
+            "shrinkLevel": 2,
+            "converge": false,
+            "noAssert": true
+        }
+    },
+    "options": {
+        "bindings": "esm",
+        "initialMemory": 16,
+        "maximumMemory": 512 
+    }
+}
